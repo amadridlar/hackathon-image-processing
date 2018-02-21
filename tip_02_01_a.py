@@ -8,7 +8,7 @@ cap = cv2.VideoCapture("dataset/examples-video/test.mp4")
 ret, frame = cap.read()
 
 # Configuración de la ubicación inicial de la ventana
-r, h, c, w = 300, 100, 500, 100  # simply hardcoded the values
+r, h, c, w = 520, 100, 460, 100  # simply hardcoded the values
 track_window = (c, r, w, h)
 
 # establece el ROI para rastrear
